@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "depth",
+            "type": "shell",
+            "command": "g++ -std=c++17 depth/depth.cpp -o depth/depth.exe"
+        },
+        {
+            "label": "kruskal",
+            "type": "shell",
+            "command": "g++ -std=c++17 kruskal/kruskal.cpp -o kruskal/kruskal.exe"
+        },
+        {
+            "label": "prim",
+            "type": "shell",
+            "command": "g++ -std=c++17 prim/prim.cpp -o prim/prim.exe"
+        },
+        {
+            "label": "eulerian",
+            "type": "shell",
+            "command": "g++ -std=c++17 eulerian/eulerian.cpp -o eulerian/eulerian.exe"
+        }
+    ]
+}
