@@ -92,7 +92,6 @@ int main(int argc, char const *argv[])
     set<Edge *> edgesCircuit;
     set<Edge *> edgesNotCircuit;
     unsigned short int nNodes, nEdges;
-    cout << "Digite a quantidade de nos: ";
     file >> nNodes;
 
     for (unsigned short int i = 0; i < nNodes; ++i)

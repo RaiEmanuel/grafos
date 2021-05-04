@@ -5,6 +5,7 @@
 #include <tuple> // std::tuple, std::make_tuple, std::tie
 #include <algorithm>
 #include <fstream>
+#include <climits>
 #define INFINITYPRIM -2147483648
 
 using namespace std;

@@ -137,6 +137,5 @@ int main(int argc, char const *argv[])
             cout << "\t"<<*z << endl;
         }cout <<"---------------------------"<<endl;
     }
-    
     return EXIT_SUCCESS;
 }
