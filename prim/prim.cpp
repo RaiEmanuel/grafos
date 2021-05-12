@@ -133,7 +133,7 @@ set<Edge *> *generateTreeMinimum(vector<Edge *> &listEdges, Node *nodes, const i
             }
         }
     }
-    unsigned short int counter = 0;
+    unsigned short int counter = 0;//conta quantos nós foram inseridos excetuando-se os 2 iniciais
     unsigned short int nEdges = listEdges.size();
     while (counter < numNodes - 2)
     {
